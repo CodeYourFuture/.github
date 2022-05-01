@@ -9,7 +9,7 @@ We are a non-profit community of software developers committed to opening up the
 
 ### Develop with us
 
-Our [free and open source syllabus](https://syllabus.codeyourfuture.io/) is [iterated collaboratively](https://github.com/CodeYourFuture/syllabus/projects/1 every week.
+Our [free and open source syllabus](https://syllabus.codeyourfuture.io/) is [iterated collaboratively](https://github.com/CodeYourFuture/syllabus/projects/1) every week.
 
 We build [fun](https://blocks.codeyourfuture.io/), [imaginative](https://github.com/CodeYourFuture/learning-lab) EdTech products you can get involved in too.
 
