@@ -11,7 +11,7 @@ We are a non-profit community of software developers committed to opening up the
 
  Our [free and open source syllabus](https://syllabus.codeyourfuture.io/) is [iterated collaboratively](https://github.com/CodeYourFuture/syllabus/projects/1) every week.
 
-We build [fun](https://blocks.codeyourfuture.io/), [imaginative](https://github.com/CodeYourFuture/learning-lab) EdTech products you can get involved in too.
+We build [fun](https://blocks.codeyourfuture.io/), [imaginative](https://cyf.act.cool/courses/js2/sprint-1) EdTech products you can get involved in too.
 
 ### Teach and Learn
 
