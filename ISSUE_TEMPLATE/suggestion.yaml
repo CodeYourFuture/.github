@@ -1,0 +1,18 @@
+name: Suggest an Improvement
+description: Suggest changes or request new features for this module
+title: "<title>"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your suggestion, we love getting feedback on our courses! You can use this template to send us any thoughts or suggestions you have. Please try to explain _why_ you feel this change is important and what (if anything) it would replace.
+
+        Our curriculum is open-source and we welcome contributions to it. You can find submission guidance, along with information about how we teach, in the [main repository](https://github.com/CodeYourFuture/curriculum).
+
+        If you have found a bug, either in the curriculum page or the exercises, please use the Bug Report issue template.
+  - type: textarea
+    attributes:
+      label: How should we update the material?
+    validations:
+      required: true
