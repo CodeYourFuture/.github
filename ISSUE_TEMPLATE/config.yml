@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contact Us
+    url: mailto:contact@codeyourfuture.io
+    about: Please report serious issues by emailing contact@codeyourfuture.io
+  - name: Volunteer With CYF
+    url: https://codeyourfuture.io/volunteers/
+    about: Join CYF here

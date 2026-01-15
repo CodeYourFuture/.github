@@ -1,0 +1,85 @@
+name: Professional Development Coursework
+description: Assign a piece of Professional Development coursework
+title: "<title>"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to assign this coursework!
+
+        To support our trainees with planning and prioritising their own learning journey, we want our coursework assignments to be as informative as possible.
+        We don't just want to tell them what to do, we want to tell them stuff like:
+        - why we are doing it
+        - what it's "for" (interview skills, communication, etc)
+        - how long they should spend on it, maximum
+        - how to get help
+        - how to submit their work
+  - type : textarea
+    attributes:
+      label: Learning Objectives
+      description: https://common.codeyourfuture.io/common-theme/shortcodes/objectives/
+      placeholder: |
+        <!--{{<objectives}}-->
+        - [ ] CYF format, task list formatting
+        <!--{{</objectives}}-->
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why are we doing this?
+      description: |
+        Clearly explain the purpose of this assignment.
+        Include links, etc to additional resources if required.
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Maximum time in hours
+      description: (PD has max 4 per week total)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How to get help
+      description: |
+        State simply how trainees can get help with this assignment.
+        If there are specific resources relevant to the task you can add them here.
+      value: |
+        General advice on asking for help can be found on the [curriculum pages](https://curriculum.codeyourfuture.io/guides/getting-help/asking-questions/).
+        You can always share your blockers in your class channel and get help from your colleagues.
+  - type: textarea
+    attributes:
+      label: Submission & Review
+      description: |
+        State in clear steps how a trainee can submit this assignment.
+        The text below is the default for a appending a Google Doc to an issue - please don't edit it unless the task has additional/different requirements.
+      placeholder: |
+        Create the Google Doc in your own Google Drive.
+        Ensure the document can be opened and commented on by reviewers - you can find out how to do that [here](https://support.google.com/a/users/answer/9305685?hl=en).
+        Share the link to the document in a comment on this issue in your planner.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you so much.**
+
+        Please now complete this ticket by filling in the options on the sidebar.
+
+        1. Assign the task's priority
+        - `Setup` -- Something which should be done before any other tasks in a sprint, eg. registering an account
+        - `Recurring` -- Something which will happen in more than one sprint in this module
+        - `Core` -- A mandatory task which should be completed by all trainees. These tasks are designed to reinforce the module's success criteria.
+        - `Optional` -- An optional task which trainees can attempt after completing other activities. These tasks can further reinforce the success criteria but should not be the only time a concept is covered in a sprint. 
+        2. Add a Sprint label to add to the backlog view
+        - Sprints are numbered 1-5, depending on the module
+        - Multiple sprint labels can be assigned for recurring tasks
+        3. Add a submission label to the task. 
+        - `PR` -- Trainees will create a pull request for review by a volunteer.
+        - `Slack` -- Trainees post a message in their class Slack channel for discussion and/or feedback
+        - `Issue` -- Trainees update their copy of this ticket with the required information
+        - `None` -- No submission necessary. This label should be used for tasks which do not require review by a volunteer, eg. Codewars exercises
+
+        Once your ticket is complete, you may like to add it to the example project board attached to this repo. This will let you see how it will appear to trainees when they copy the issue to their own planners. If necessary you can make changes using the `Edit` button.
