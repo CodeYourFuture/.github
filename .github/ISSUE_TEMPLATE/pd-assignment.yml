@@ -20,9 +20,9 @@ body:
       label: Learning Objectives
       description: https://common.codeyourfuture.io/common-theme/shortcodes/objectives/
       placeholder: |
-        <!--{{<objectives}}-->
+        <!--{{<objectives>}}-->
         - [ ] CYF format, task list formatting
-        <!--{{</objectives}}-->
+        <!--{{</objectives>}}-->
     validations:
       required: true
   - type: textarea
